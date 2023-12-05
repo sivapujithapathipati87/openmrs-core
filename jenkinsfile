@@ -4,7 +4,7 @@ pipeline
         label 'MAVEN'
     }
     options{
-        timeout(time: 30, units: 'minutes')
+        timeout(time: 30, unit: 'minutes')
     }
     triggers{
         pollSCM('* * * * *')
