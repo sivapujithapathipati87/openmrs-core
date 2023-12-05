@@ -3,7 +3,7 @@ pipeline
     agent{
         label 'MAVEN'
     }
-    option{
+    options{
         timeout(time: 30, units: 'minutes')
     }
     triggers{
